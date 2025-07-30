@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:3000/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="/Users/mohammadhossein/Desktop/kasuka/src/index.css">/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme, base, components, utilities;
+@layer theme {
+  :root, :host {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --color-amber-50: oklch(98.7% 0.022 95.277);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-yellow-400: oklch(85.2% 0.199 91.936);
+    --color-neutral-200: oklch(92.2% 0 0);
+    --color-neutral-700: oklch(37.1% 0 0);
+    --color-neutral-900: oklch(20.5% 0 0);
+    --color-black: #000;
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --breakpoint-lg: 64rem;
+    --container-6xl: 72rem;
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --leading-relaxed: 1.625;
+    --radius-sm: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-xl: 0.75rem;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+  }
+}
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol, ul, menu {
+    list-style: none;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+  }
+  @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentcolor;
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button, input:where([type="button"], [type="reset"], [type="submit"]), ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+@layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .relative {
+    position: relative;
+  }
+  .inset-0 {
+    inset: calc(var(--spacing) * 0);
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .bottom-3 {
+    bottom: calc(var(--spacing) * 3);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
+  .z-10 {
+    z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
+  }
+  .z-30 {
+    z-index: 30;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
+  .my-16 {
+    margin-block: calc(var(--spacing) * 16);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-28 {
+    margin-top: calc(var(--spacing) * 28);
+  }
+  .mr-2 {
+    margin-right: calc(var(--spacing) * 2);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
+  .mb-14 {
+    margin-bottom: calc(var(--spacing) * 14);
+  }
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20);
+  }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
+  }
+  .ml-3 {
+    margin-left: calc(var(--spacing) * 3);
+  }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
+  .block {
+    display: block;
+  }
+  .flex {
+    display: flex;
+  }
+  .grid {
+    display: grid;
+  }
+  .hidden {
+    display: none;
+  }
+  .h-0\.5 {
+    height: calc(var(--spacing) * 0.5);
+  }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+  .h-30 {
+    height: calc(var(--spacing) * 30);
+  }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
+  .h-80 {
+    height: calc(var(--spacing) * 80);
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
+  .h-auto {
+    height: auto;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .w-8 {
+    width: calc(var(--spacing) * 8);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
+  .w-28 {
+    width: calc(var(--spacing) * 28);
+  }
+  .w-30 {
+    width: calc(var(--spacing) * 30);
+  }
+  .w-full {
+    width: 100%;
+  }
+  .max-w-6xl {
+    max-width: var(--container-6xl);
+  }
+  .max-w-full {
+    max-width: 100%;
+  }
+  .max-w-screen-lg {
+    max-width: var(--breakpoint-lg);
+  }
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .list-none {
+    list-style-type: none;
+  }
+  .auto-rows-\[300px\] {
+    grid-auto-rows: 300px;
+  }
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
+  .gap-24 {
+    gap: calc(var(--spacing) * 24);
+  }
+  .space-y-1 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 1) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-3 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-5 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 5) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 5) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-x-9 {
+    :where(& > :not(:last-child)) {
+      --tw-space-x-reverse: 0;
+      margin-inline-start: calc(calc(var(--spacing) * 9) * var(--tw-space-x-reverse));
+      margin-inline-end: calc(calc(var(--spacing) * 9) * calc(1 - var(--tw-space-x-reverse)));
+    }
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-\[2px\] {
+    border-radius: 2px;
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
+  .rounded-md {
+    border-radius: var(--radius-md);
+  }
+  .rounded-sm {
+    border-radius: var(--radius-sm);
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-\[\.5px\] {
+    border-style: var(--tw-border-style);
+    border-width: .5px;
+  }
+  .border-\[5px\] {
+    border-style: var(--tw-border-style);
+    border-width: 5px;
+  }
+  .border-\[rgba\(0\,0\,0\,0\.5\)\] {
+    border-color: rgba(0,0,0,0.5);
+  }
+  .border-amber-50 {
+    border-color: var(--color-amber-50);
+  }
+  .border-amber-300 {
+    border-color: var(--color-amber-300);
+  }
+  .border-neutral-200 {
+    border-color: var(--color-neutral-200);
+  }
+  .border-white {
+    border-color: var(--color-white);
+  }
+  .bg-\[rgb\(\)\] {
+    background-color: rgb();
+  }
+  .bg-\[rgb\(21\,21\,21\)\] {
+    background-color: rgb(21,21,21);
+  }
+  .bg-\[rgb\(21-21\,21\)\] {
+    background-color: rgb(21-21,21);
+  }
+  .bg-\[rgb\(21-21-21\)\] {
+    background-color: rgb(21-21-21);
+  }
+  .bg-\[rgb\] {
+    background-color: rgb;
+  }
+  .bg-\[rgba\(17\,17\,17\,0\.57\)\] {
+    background-color: rgba(17,17,17,0.57);
+  }
+  .bg-\[rgba\(196\,196\,196\,0\.57\)\] {
+    background-color: rgba(196,196,196,0.57);
+  }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
+  .bg-black {
+    background-color: var(--color-black);
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-fixed {
+    background-attachment: fixed;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .py-1\.5 {
+    padding-block: calc(var(--spacing) * 1.5);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
+  .py-16 {
+    padding-block: calc(var(--spacing) * 16);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-justify {
+    text-align: justify;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
+  }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+  .leading-relaxed {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .text-amber-300 {
+    color: var(--color-amber-300);
+  }
+  .text-neutral-700 {
+    color: var(--color-neutral-700);
+  }
+  .text-neutral-900 {
+    color: var(--color-neutral-900);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .opacity-0 {
+    opacity: 0%;
+  }
+  .opacity-50 {
+    opacity: 50%;
+  }
+  .opacity-70 {
+    opacity: 70%;
+  }
+  .shadow {
+    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-md {
+    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .grayscale {
+    --tw-grayscale: grayscale(100%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .filter {
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .transition {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .transition-opacity {
+    transition-property: opacity;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .duration-200 {
+    --tw-duration: 200ms;
+    transition-duration: 200ms;
+  }
+  .duration-300 {
+    --tw-duration: 300ms;
+    transition-duration: 300ms;
+  }
+  .duration-500 {
+    --tw-duration: 500ms;
+    transition-duration: 500ms;
+  }
+  .group-hover\:visible {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        visibility: visible;
+      }
+    }
+  }
+  .group-hover\:opacity-100 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        opacity: 100%;
+      }
+    }
+  }
+  .hover\:border-amber-300 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--color-amber-300);
+      }
+    }
+  }
+  .hover\:border-black {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--color-black);
+      }
+    }
+  }
+  .hover\:bg-amber-300 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-amber-300);
+      }
+    }
+  }
+  .hover\:bg-white\/10 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, #fff 10%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:text-amber-300 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-amber-300);
+      }
+    }
+  }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
+      }
+    }
+  }
+  .hover\:text-yellow-400 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-yellow-400);
+      }
+    }
+  }
+  .hover\:shadow-lg {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      }
+    }
+  }
+  .hover\:shadow-xl {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      }
+    }
+  }
+  .hover\:shadow-black\/20 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow-color: color-mix(in srgb, #000 20%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-black) 20%, transparent) var(--tw-shadow-alpha), transparent);
+        }
+      }
+    }
+  }
+  .hover\:shadow-black\/30 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow-color: color-mix(in srgb, #000 30%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-black) 30%, transparent) var(--tw-shadow-alpha), transparent);
+        }
+      }
+    }
+  }
+  .hover\:grayscale-0 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-grayscale: grayscale(0%);
+        filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+      }
+    }
+  }
+  .sm\:grid-cols-2 {
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:w-44 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 44);
+    }
+  }
+  .md\:grid-cols-2 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:px-0 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:text-3xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .md\:text-lg {
+    @media (width >= 48rem) {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
+    }
+  }
+  .lg\:ml-0 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
+  .lg\:h-auto {
+    @media (width >= 64rem) {
+      height: auto;
+    }
+  }
+  .lg\:w-4\/12 {
+    @media (width >= 64rem) {
+      width: calc(4/12 * 100%);
+    }
+  }
+  .lg\:w-8\/12 {
+    @media (width >= 64rem) {
+      width: calc(8/12 * 100%);
+    }
+  }
+  .lg\:grid-cols-2 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-3 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-4 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-6 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+  .lg\:flex-row {
+    @media (width >= 64rem) {
+      flex-direction: row;
+    }
+  }
+  .lg\:justify-between {
+    @media (width >= 64rem) {
+      justify-content: space-between;
+    }
+  }
+}
+@property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-space-x-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-space-y-reverse: 0;
+      --tw-space-x-reverse: 0;
+      --tw-border-style: solid;
+      --tw-leading: initial;
+      --tw-font-weight: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
+      --tw-duration: initial;
+    }
+  }
+}
+</style></head>
+  <body>
+    <div id="root"><div class=""><div><div id="home" class="relative bg-fixed bg-cover bg-center min-h-screen" style="background-image: url(&quot;./src/assets/hero-bg.jpg&quot;);"><div class="absolute inset-0 bg-black opacity-70 z-10"></div><div class="bg-[rgba(17,17,17,0.57)] fixed top-0 left-0 w-full z-30 "><div class="container mx-auto"><div class="flex lg:justify-between items-center relative"><div class="logo flex justify-center items-center cursor-pointer"><img class="w-16" alt="" src="./Vite + React_files/logo.png"><h1 class=" text-3xl text-white">KASOUKA</h1></div><div><ul class="space-x-9 hidden lg:flex list-none"><li><a href="http://localhost:3000/#home" class="text-white hover:text-yellow-400">Home</a></li><li><a href="http://localhost:3000/#about" class="text-white hover:text-yellow-400">About</a></li><li><a href="http://localhost:3000/#contact" class="text-white hover:text-yellow-400">Sample</a></li><li><a href="http://localhost:3000/#contact" class="text-white hover:text-yellow-400">Seervice</a></li><li><a href="http://localhost:3000/#contact" class="text-white hover:text-yellow-400">Team</a></li><li><a href="http://localhost:3000/#contact" class="text-white hover:text-yellow-400">Contact</a></li></ul></div><div class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-30 z-50  flex-col justify-center items-center"><ul class="space-y-1 text-center list-none w-full max-w-screen-lg"><li class="w-full"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-white text-left text-3xl cursor-pointer ml-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368 144 144m224 0L144 368"></path></svg></li><li class="hover:bg-white/10 w-full"><a href="http://localhost:3000/#home" class="block w-full text-white text-2xl py-4 px-6 text-left hover:text-yellow-400">Home</a></li><li class="hover:bg-white/10 w-full"><a href="http://localhost:3000/#about" class="block w-full text-white text-2xl py-4 px-6 text-left hover:text-yellow-400">About</a></li><li class="hover:bg-white/10 w-full"><a href="http://localhost:3000/#sample" class="block w-full text-white text-2xl py-4 px-6 text-left hover:text-yellow-400">Sample</a></li><li class="hover:bg-white/10 w-full"><a href="http://localhost:3000/#service" class="block w-full text-white text-2xl py-4 px-6 text-left hover:text-yellow-400">Service</a></li><li class="hover:bg-white/10 w-full"><a href="http://localhost:3000/#team" class="block w-full text-white text-2xl py-4 px-6 text-left hover:text-yellow-400">Team</a></li><li class="hover:bg-white/10 w-full"><a href="http://localhost:3000/#contact" class="block w-full text-white text-2xl py-4 px-6 text-left hover:text-yellow-400">Contact</a></li></ul></div><div class="flex justify-center items-center"><button class="border-2 ml-5 lg:ml-0 border-amber-300 text-white px-6 py-1.5 rounded-sm hover:bg-amber-300 hover:text-black cursor-pointer ">Start</button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="text-white lg:hidden text-2xl ml-2 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 5H0V4h16v1zm0 8H0v-1h16v1zm0-4.008H0V8h16v.992z"></path></svg></div></div></div></div><div class="relative z-20"><div class="flex  w-full min-h-screen justify-center items-center"><div class="flex flex-col w-full h-full items-center justify-between container mx-auto "><div class="text-6xl text-center w-full space-y-3 mt-28"><h1 class="text-white">Powerful digital solutions with </h1><h1 class="text-amber-300 font-bold">Kasuka</h1><h1 class="text-white text-3xl">We are a team of talented digital marketers</h1></div><div class=" w-full  mx-auto max-w-6xl flex flex-row flex-wrap justify-center gap-8 mt-10 px-5 py-5 md:px-0"><div class="w-full md:w-44 h-32 border-[.5px] border-amber-50 rounded-[2px] transition duration-300 hover:border-amber-300 text-white hover:text-amber-300 cursor-pointer flex flex-col justify-center items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-4xl text-amber-300" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z"></path></svg><h1 class="mt- font">Dramatic text</h1></div><div class="w-full md:w-44 h-32 border-[.5px] border-amber-50 rounded-[2px] transition duration-300 hover:border-amber-300 text-white hover:text-amber-300 cursor-pointer flex flex-col justify-center items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-4xl text-amber-300" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0 0 20.01 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"></path></svg><h1 class="mt- font">Qualitative chart</h1></div><div class="w-full md:w-44 h-32 border-[.5px] border-amber-50 rounded-[2px] transition duration-300 hover:border-amber-300 text-white hover:text-amber-300 cursor-pointer flex flex-col justify-center items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="text-4xl text-amber-300" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M228,67.24a39.77,39.77,0,0,0-12.51-28.52C199.91,24,174.71,24.5,159.29,39.93L142.48,56.84a28,28,0,0,0-35.64,3.29l-9,9a20,20,0,0,0-.73,27.49L48.9,144.84A43.76,43.76,0,0,0,37,185.28l-7.5,17.19a17.66,17.66,0,0,0,3.71,19.65,19.9,19.9,0,0,0,22.15,4.19l16.31-7.13a43.89,43.89,0,0,0,39.45-12.09l48.24-48.26a20,20,0,0,0,27.47-.73l9-9a28.06,28.06,0,0,0,3.25-35.71l17.24-17.34A39.69,39.69,0,0,0,228,67.24ZM142.35,141.9,136.29,148H79.73l34.34-34.36Zm-48.2,48.21a20,20,0,0,1-20,5,11.93,11.93,0,0,0-8.32.47L57,199.38,60.69,191a12,12,0,0,0,.37-8.64A20,20,0,0,1,60.41,172h51.88Zm105.14-111-25.37,25.52a12,12,0,0,0,0,17l4.88,4.88a4,4,0,0,1,0,5.66l-6.14,6.15-4.88-4.89h0L122.55,88.14h0l-4.88-4.89,6.14-6.14a4,4,0,0,1,5.66,0L134.35,82a12,12,0,0,0,8.49,3.51h0A12,12,0,0,0,151.34,82l24.94-25.08c6.3-6.3,16.48-6.63,22.71-.74a16,16,0,0,1,.3,23Z"></path></svg><h1 class="mt- font">Portfolio</h1></div><div class="w-full md:w-44 h-32 border-[.5px] border-amber-50 rounded-[2px] transition duration-300 hover:border-amber-300 text-white hover:text-amber-300 cursor-pointer flex flex-col justify-center items-center "><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="text-4xl text-amber-300" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.20348 2.00378C9.46407 2.00378 10.5067 3.10742 10.6786 4.54241L19.1622 13.0259L11.384 20.8041C10.2124 21.9757 8.31291 21.9757 7.14134 20.8041L2.8987 16.5615C1.72713 15.3899 1.72713 13.4904 2.8987 12.3188L5.70348 9.51404V4.96099C5.70348 3.32777 6.82277 2.00378 8.20348 2.00378ZM8.70348 4.96099V6.51404L7.70348 7.51404V4.96099C7.70348 4.63435 7.92734 4.36955 8.20348 4.36955C8.47963 4.36955 8.70348 4.63435 8.70348 4.96099ZM8.70348 10.8754V9.34247L4.31291 13.733C3.92239 14.1236 3.92239 14.7567 4.31291 15.1473L8.55555 19.3899C8.94608 19.7804 9.57924 19.7804 9.96977 19.3899L16.3337 13.0259L10.7035 7.39569V10.8754C10.7035 10.9184 10.7027 10.9612 10.7012 11.0038H8.69168C8.69941 10.9625 8.70348 10.9195 8.70348 10.8754Z" fill="currentColor"></path><path d="M16.8586 16.8749C15.687 18.0465 15.687 19.946 16.8586 21.1175C18.0302 22.2891 19.9297 22.2891 21.1013 21.1175C22.2728 19.946 22.2728 18.0465 21.1013 16.8749L18.9799 14.7536L16.8586 16.8749Z" fill="currentColor"></path></svg><h1 class="mt- font">Final performances</h1></div><div class="w-full md:w-44 h-32 border-[.5px] border-amber-50 rounded-[2px] transition duration-300 hover:border-amber-300 text-white hover:text-amber-300 cursor-pointer flex flex-col justify-center items-center "><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-4xl text-amber-300" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg><h1 class="mt- font">Stored information</h1></div></div></div></div></div></div></div><div class=""><div class="grid grid-cols-1 lg:grid-cols-2 gap-10 container mx-auto px-5 md:px-0 my-10"><div><h1 class="text-neutral-700 font-bold text-3xl">Lorem Ipsum</h1><p class="text-neutral-900 mt-2 text-justify leading-relaxed">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p></div><div class="flex items-center justify-center"><img class="max-w-full h-auto" alt="About" src="./Vite + React_files/about.jpg"></div></div></div><div class="container mx-auto"><div class="grid grid-cols-3 lg:grid-cols-6 gap-24 my-16 px-5 md:px-0"><div class=" w-full filter grayscale hover:grayscale-0 transition duration-500 cursor-pointer flex justify-center items-center"> <img class="" alt="" src="./Vite + React_files/client-1.png"> </div><div class=" w-full filter grayscale hover:grayscale-0 transition duration-500 cursor-pointer flex justify-center items-center"> <img alt="" src="./Vite + React_files/client-2.png"></div><div class=" w-full filter grayscale hover:grayscale-0 transition duration-500 cursor-pointer flex justify-center items-center"> <img alt="" src="./Vite + React_files/client-3.png"></div><div class=" w-full filter grayscale hover:grayscale-0 transition duration-500 cursor-pointer flex justify-center items-center"> <img alt="" src="./Vite + React_files/client-4.png"></div><div class=" w-full filter grayscale hover:grayscale-0 transition duration-500 cursor-pointer flex justify-center items-center"> <img alt="" src="./Vite + React_files/client-5.png"></div><div class=" w-full filter grayscale hover:grayscale-0 transition duration-500 cursor-pointer flex justify-center items-center"> <img alt="" src="./Vite + React_files/client-6.png"></div></div></div><div class="container  mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 px-5 mb-20 md:px-0"><div><img class="max-w-full h-auto rounded" alt="" src="./Vite + React_files/features.jpg"></div><div class="flex flex-col justify-between h-80 lg:h-auto "><div class="flex items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-amber-300 text-5xl flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linejoin="round" stroke-width="32" d="M160 336V48l32 16 32-16 31.94 16 32.37-16L320 64l31.79-16 31.93 16L416 48l32.01 16L480 48v224"></path><path fill="none" stroke-linejoin="round" stroke-width="32" d="M480 272v112a80 80 0 0 1-80 80 80 80 0 0 1-80-80v-48H48a15.86 15.86 0 0 0-16 16c0 64 6.74 112 80 112h288"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M224 144h192m-128 80h128"></path></svg><div class="flex flex-col justify-center ml-4"><h1 class="font-bold text-xl text-neutral-900">Advertising is difficult.</h1><p class="text-neutral-700">The results or outcomes of each of these employment goals are achieved</p></div></div><div class="flex items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-amber-300 text-5xl flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M448 341.37V170.61A32 32 0 0 0 432.11 143l-152-88.46a47.94 47.94 0 0 0-48.24 0L79.89 143A32 32 0 0 0 64 170.61v170.76A32 32 0 0 0 79.89 369l152 88.46a48 48 0 0 0 48.24 0l152-88.46A32 32 0 0 0 448 341.37z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m69 153.99 187 110 187-110m-187 310v-200"></path></svg><div class="flex flex-col justify-center ml-4"><h1 class="font-bold text-xl text-neutral-900">Which one of these is it?</h1><p class="text-neutral-700">Those who lust after blacks do not see, they are to blame for abandoning their services</p></div></div><div class="flex items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-amber-300 text-5xl flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="416" height="352" x="48" y="80" fill="none" stroke-linejoin="round" stroke-width="32" rx="48" ry="48"></rect><circle cx="336" cy="176" r="32" fill="none" stroke-miterlimit="10" stroke-width="32"></circle><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m304 335.79-90.66-90.49a32 32 0 0 0-43.87-1.3L48 352m176 80 123.34-123.34a32 32 0 0 1 43.11-2L464 368"></path></svg><div class="flex flex-col justify-center ml-4"><h1 class="font-bold text-xl text-neutral-900">Or is she blind?</h1><p class="text-neutral-700">Either accepts or when no one avoids everyone. All the pain that makes them more</p></div></div><div class="flex items-center "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-amber-300 text-5xl flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M463.1 112.37C373.68 96.33 336.71 84.45 256 48c-80.71 36.45-117.68 48.33-207.1 64.37C32.7 369.13 240.58 457.79 256 464c15.42-6.21 223.3-94.87 207.1-351.63z"></path></svg><div class="flex flex-col justify-center ml-4"><h1 class="font-bold text-xl text-neutral-900">Happy Truth</h1><p class="text-neutral-700">They follow nothing without bearing the truth when praising life.</p></div></div></div></div><div class="container mx-auto px-5 md:px-0 mb-14"><div class="flex flex-col"><div><div class="flex items-center"><h1 class="text-neutral-700 ">Services</h1><div class="w-28 h-0.5 bg-amber-300 mr-2 rounded ml-3"></div></div><p class="text-neutral-900 text-3xl font-bold">Check out our services</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-4"><div class="border border-neutral-200 cursor-pointer h-[300px] px-3 flex justify-center items-center transition-all duration-300 hover:shadow-lg hover:shadow-black/30 rounded-xl bg-white"><div class="flex flex-col justify-center items-center text-center space-y-5"><div class="bg-amber-300 p-4 rounded-xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"></path></svg></div><h4 class="font-black text-2xl text-neutral-900">Lorem Ipsum</h4><p class="text-neutral-700">What pains and troubles will they receive to relax and enjoy the corruption?</p></div></div><div class="border border-neutral-200 cursor-pointer h-[300px] px-3 flex justify-center items-center transition-all duration-300 hover:shadow-lg hover:shadow-black/30 rounded-xl bg-white"><div class="flex flex-col justify-center items-center text-center space-y-5"><div class="bg-amber-300 p-4 rounded-xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linejoin="round" stroke-width="32" d="M384 80H128c-26 0-43 14-48 40L48 272v112a48.14 48.14 0 0 0 48 48h320a48.14 48.14 0 0 0 48-48V272l-32-152c-5-27-23-40-48-40z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M48 272h144m128 0h144m-272 0a64 64 0 0 0 128 0"></path></svg></div><h4 class="font-black text-2xl text-neutral-900">But as you can see</h4><p class="text-neutral-700">They are the exceptions who look for black people, they do not see, they are the ones who are guilty of their own service</p></div></div><div class="border border-neutral-200 cursor-pointer h-[300px] px-3 flex justify-center items-center transition-all duration-300 hover:shadow-lg hover:shadow-black/30 rounded-xl bg-white"><div class="flex flex-col justify-center items-center text-center space-y-5"><div class="bg-amber-300 p-4 rounded-xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" class="text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M 16 6 C 9.382813 6 4 11.382813 4 18 C 4 20.894531 5.035156 23.550781 6.75 25.625 L 7.03125 26 L 24.96875 26 L 25.25 25.625 C 26.964844 23.550781 28 20.894531 28 18 C 28 11.382813 22.617188 6 16 6 Z M 16 8 C 21.535156 8 26 12.464844 26 18 C 26 20.265625 25.207031 22.324219 23.9375 24 L 8.0625 24 C 6.792969 22.324219 6 20.265625 6 18 C 6 12.464844 10.464844 8 16 8 Z M 16 9 C 15.449219 9 15 9.449219 15 10 C 15 10.550781 15.449219 11 16 11 C 16.550781 11 17 10.550781 17 10 C 17 9.449219 16.550781 9 16 9 Z M 12 10.0625 C 11.449219 10.0625 11 10.511719 11 11.0625 C 11 11.613281 11.449219 12.0625 12 12.0625 C 12.550781 12.0625 13 11.613281 13 11.0625 C 13 10.511719 12.550781 10.0625 12 10.0625 Z M 20 10.0625 C 19.449219 10.0625 19 10.511719 19 11.0625 C 19 11.613281 19.449219 12.0625 20 12.0625 C 20.550781 12.0625 21 11.613281 21 11.0625 C 21 10.511719 20.550781 10.0625 20 10.0625 Z M 9.0625 13 C 8.511719 13 8.0625 13.449219 8.0625 14 C 8.0625 14.550781 8.511719 15 9.0625 15 C 9.613281 15 10.0625 14.550781 10.0625 14 C 10.0625 13.449219 9.613281 13 9.0625 13 Z M 22.65625 13.03125 L 17 16.28125 C 16.707031 16.109375 16.363281 16 16 16 C 14.894531 16 14 16.894531 14 18 C 14 19.105469 14.894531 20 16 20 C 17.09375 20 17.984375 19.121094 18 18.03125 C 18 18.019531 18 18.011719 18 18 L 23.65625 14.78125 Z M 8 17 C 7.449219 17 7 17.449219 7 18 C 7 18.550781 7.449219 19 8 19 C 8.550781 19 9 18.550781 9 18 C 9 17.449219 8.550781 17 8 17 Z M 24 17 C 23.449219 17 23 17.449219 23 18 C 23 18.550781 23.449219 19 24 19 C 24.550781 19 25 18.550781 25 18 C 25 17.449219 24.550781 17 24 17 Z M 9.0625 21 C 8.511719 21 8.0625 21.449219 8.0625 22 C 8.0625 22.550781 8.511719 23 9.0625 23 C 9.613281 23 10.0625 22.550781 10.0625 22 C 10.0625 21.449219 9.613281 21 9.0625 21 Z M 22.9375 21 C 22.386719 21 21.9375 21.449219 21.9375 22 C 21.9375 22.550781 22.386719 23 22.9375 23 C 23.488281 23 23.9375 22.550781 23.9375 22 C 23.9375 21.449219 23.488281 21 22.9375 21 Z"></path></svg></div><h4 class="font-black text-2xl text-neutral-900">Great pains</h4><p class="text-neutral-700">They are the exceptions who look for black people, they do not see, they are the ones who are guilty of their own service</p></div></div><div class="border border-neutral-200 cursor-pointer h-[300px] px-3 flex justify-center items-center transition-all duration-300 hover:shadow-lg hover:shadow-black/30 rounded-xl bg-white"><div class="flex flex-col justify-center items-center text-center space-y-5"><div class="bg-amber-300 p-4 rounded-xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 17 17" class="text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g></g><path d="M8.516 0c-4.687 0-8.5 3.813-8.5 8.5s3.813 8.5 8.5 8.5 8.5-3.813 8.5-8.5-3.814-8.5-8.5-8.5zM1.041 9h2.937c0.044 1.024 0.211 2.031 0.513 3h-2.603c-0.481-0.906-0.776-1.923-0.847-3zM3.978 8h-2.937c0.071-1.077 0.366-2.094 0.847-3h2.6c-0.301 0.969-0.467 1.976-0.51 3zM5.547 5h5.896c0.33 0.965 0.522 1.972 0.569 3h-7.034c0.046-1.028 0.239-2.035 0.569-3zM4.978 9h7.035c-0.049 1.028-0.241 2.035-0.572 3h-5.891c-0.331-0.965-0.524-1.972-0.572-3zM13.013 9h2.978c-0.071 1.077-0.366 2.094-0.847 3h-2.644c0.302-0.969 0.469-1.976 0.513-3zM13.013 8c-0.043-1.024-0.209-2.031-0.51-3h2.641c0.48 0.906 0.775 1.923 0.847 3h-2.978zM14.502 4h-2.354c-0.392-0.955-0.916-1.858-1.55-2.7 1.578 0.457 2.938 1.42 3.904 2.7zM9.074 1.028c0.824 0.897 1.484 1.9 1.972 2.972h-5.102c0.487-1.071 1.146-2.073 1.97-2.97 0.199-0.015 0.398-0.030 0.602-0.030 0.188 0 0.373 0.015 0.558 0.028zM6.383 1.313c-0.629 0.838-1.151 1.737-1.54 2.687h-2.314c0.955-1.267 2.297-2.224 3.854-2.687zM2.529 13h2.317c0.391 0.951 0.915 1.851 1.547 2.689-1.561-0.461-2.907-1.419-3.864-2.689zM7.926 15.97c-0.826-0.897-1.488-1.899-1.978-2.97h5.094c-0.49 1.072-1.152 2.075-1.979 2.972-0.181 0.013-0.363 0.028-0.547 0.028-0.2 0-0.395-0.015-0.59-0.030zM10.587 15.703c0.636-0.842 1.164-1.747 1.557-2.703h2.358c-0.968 1.283-2.332 2.247-3.915 2.703z"></path></svg></div><h4 class="font-black text-2xl text-neutral-900">Nobody else</h4><p class="text-neutral-700">But in fact we both accuse them and are flattered with a righteous hatred</p></div></div><div class="border border-neutral-200 cursor-pointer h-[300px] px-3 flex justify-center items-center transition-all duration-300 hover:shadow-lg hover:shadow-black/30 rounded-xl bg-white"><div class="flex flex-col justify-center items-center text-center space-y-5"><div class="bg-amber-300 p-4 rounded-xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M10 8v8l5-4-5-4zm9-5H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path></svg></div><h4 class="font-black text-2xl text-neutral-900">Clean the hinge</h4><p class="text-neutral-700">They are the exceptions who look for black people, they do not see, they are the ones who are guilty of their own service</p></div></div><div class="border border-neutral-200 cursor-pointer h-[300px] px-3 flex justify-center items-center transition-all duration-300 hover:shadow-lg hover:shadow-black/30 rounded-xl bg-white"><div class="flex flex-col justify-center items-center text-center space-y-5"><div class="bg-amber-300 p-4 rounded-xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" class="text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M 3 6 L 3 12 L 5 12 L 5 24 L 3 24 L 3 26 L 5 26 L 13 26 L 13 24 L 13 19 C 13 17.346 14.346 16 16 16 C 17.654 16 19 17.346 19 19 L 19 24 L 19 26 L 27 26 L 29 26 L 29 24 L 27 24 L 27 12 L 29 12 L 29 6 L 3 6 z M 5 8 L 27 8 L 27 10 L 5 10 L 5 8 z M 7 12 L 25 12 L 25 24 L 21 24 L 21 19 C 21 16.243 18.757 14 16 14 C 13.243 14 11 16.243 11 19 L 11 24 L 7 24 L 7 12 z"></path></svg></div><h4 class="font-black text-2xl text-neutral-900">Dons wall</h4><p class="text-neutral-700">Our methods or efforts moreover, error flees, let the younger be wise</p></div></div></div></div></div><div class="relative bg-fixed bg-cover bg-center  " style="background-image: url(&quot;./src/assets/cta-bg.jpg&quot;);"><div class="absolute inset-0 bg-black opacity-50 z-10"></div><div class="relative container mx-auto px-5 md:px-0 py-20 z-20"><div class="flex flex-col w-full  justify-center items-center text-white "><h4 class="text-3xl font-bold mb-2">Call to action</h4><p class="text-center">But the condemnation of pain in the film is unthinkable, in pleasure it wants to escape the pain of being a silus without consequence. They are the exceptions that the blind seek, they do not see, they are those who delegate their responsibilities to a guilt that alleviates the hardships of the soul.</p>‌<button class="cursor-pointer border-2 border-white px-6 py-3 rounded-sm hover:bg-amber-300 hover:text-black hover:border-black transition-all duration-300">Call to action</button></div></div></div><div class="container mx-auto px-5 md:px-0 mt-16"><div><div class="flex items-center"><h1 class="text-neutral-700 ">Portfolio</h1><div class="w-28 h-0.5 bg-amber-300 mr-2 rounded ml-3"></div></div><p class="text-neutral-900 text-3xl font-bold">Check out our portfolio</p></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-[300px] gap-6 mt-16 "><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow row-span-2"><img alt="Item 1" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-1.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow "><img alt="Item 2" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-2.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow "><img alt="Item 3" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-3.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow "><img alt="Item 4" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-4.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow row-span-2"><img alt="Item 5" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-5.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow row-span-2"><img alt="Item 6" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-6.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow "><img alt="Item 7" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-7.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow "><img alt="Item 8" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-8.jpg"></div><div class="overflow-hidden hover:shadow-xl hover:shadow-black/20 transition-all duration-200 rounded shadow "><img alt="Item 9" class="w-full h-full object-cover" src="./Vite + React_files/portfolio-9.jpg"></div></div></div><div class="container mx-auto px-4 md:px-0 mt-20"><div class="flex flex-col lg:flex-row items-center gap-6"><div class="w-full lg:w-4/12"><img class="w-full h-auto rounded-xl" alt="Counts" src="./Vite + React_files/counts.jpg"></div><div class="w-full lg:w-8/12 flex flex-col  gap-4"><h4 class="text-neutral-900 text-2xl md:text-3xl font-bold">It offers the most worthy pleasure anyway</h4><p class="text-neutral-700 text-base md:text-lg">The pain itself may be a lot of pain, but the main reason is pain, but I give it time to sink in like a big ache and pain. Pain is the culprit.</p><div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10"><div class="flex flex-col"><div class="flex flex-row  items-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-amber-300 text-5xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Face_Smile"><g><path d="M12,21.942A9.942,9.942,0,1,1,21.942,12,9.953,9.953,0,0,1,12,21.942ZM12,3.058A8.942,8.942,0,1,0,20.942,12,8.952,8.952,0,0,0,12,3.058Z"></path><path d="M16.693,13.744a5.041,5.041,0,0,1-9.387,0c-.249-.59-1.111-.081-.863.505a6.026,6.026,0,0,0,11.114,0c.247-.586-.614-1.1-.864-.505Z"></path><circle cx="9" cy="9.011" r="1.25"></circle><circle cx="15" cy="9.011" r="1.25"></circle></g></g></svg><h4 class="text-3xl font-bold ml-3">65</h4></div><p>Happy customers are happy to receive something from the architect.</p></div><div class="flex flex-col"><div class="flex flex-row  items-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-amber-300 text-5xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Face_Smile"><g><path d="M12,21.942A9.942,9.942,0,1,1,21.942,12,9.953,9.953,0,0,1,12,21.942ZM12,3.058A8.942,8.942,0,1,0,20.942,12,8.952,8.952,0,0,0,12,3.058Z"></path><path d="M16.693,13.744a5.041,5.041,0,0,1-9.387,0c-.249-.59-1.111-.081-.863.505a6.026,6.026,0,0,0,11.114,0c.247-.586-.614-1.1-.864-.505Z"></path><circle cx="9" cy="9.011" r="1.25"></circle><circle cx="15" cy="9.011" r="1.25"></circle></g></g></svg><h4 class="text-3xl font-bold ml-3">65</h4></div><p>Happy customers are happy to receive something from the architect.</p></div><div class="flex flex-col"><div class="flex flex-row  items-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-amber-300 text-5xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Face_Smile"><g><path d="M12,21.942A9.942,9.942,0,1,1,21.942,12,9.953,9.953,0,0,1,12,21.942ZM12,3.058A8.942,8.942,0,1,0,20.942,12,8.952,8.952,0,0,0,12,3.058Z"></path><path d="M16.693,13.744a5.041,5.041,0,0,1-9.387,0c-.249-.59-1.111-.081-.863.505a6.026,6.026,0,0,0,11.114,0c.247-.586-.614-1.1-.864-.505Z"></path><circle cx="9" cy="9.011" r="1.25"></circle><circle cx="15" cy="9.011" r="1.25"></circle></g></g></svg><h4 class="text-3xl font-bold ml-3">65</h4></div><p>Happy customers are happy to receive something from the architect.</p></div><div class="flex flex-col"><div class="flex flex-row  items-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-amber-300 text-5xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Face_Smile"><g><path d="M12,21.942A9.942,9.942,0,1,1,21.942,12,9.953,9.953,0,0,1,12,21.942ZM12,3.058A8.942,8.942,0,1,0,20.942,12,8.952,8.952,0,0,0,12,3.058Z"></path><path d="M16.693,13.744a5.041,5.041,0,0,1-9.387,0c-.249-.59-1.111-.081-.863.505a6.026,6.026,0,0,0,11.114,0c.247-.586-.614-1.1-.864-.505Z"></path><circle cx="9" cy="9.011" r="1.25"></circle><circle cx="15" cy="9.011" r="1.25"></circle></g></g></svg><h4 class="text-3xl font-bold ml-3">65</h4></div><p>Happy customers are happy to receive something from the architect.</p></div></div></div></div></div><div class="relative bg-fixed bg-cover mt-16" style="background-image: url(&quot;./src/assets/testimonials-bg.jpg&quot;);"><div class="absolute inset-0 bg-black opacity-50 z-10"></div><div class="relative container mx-auto px-4 py-16 md:px-0 z-20"><div class="flex flex-col items-center"><div class="flex flex-col items-center"><img class="rounded-full w-30 h-30 border-[5px] border-[rgba(0,0,0,0.5)] " alt="" src="./Vite + React_files/testimonials-1.jpg"><div class="flex flex-col items-center"><h4 class="text-white font-bold text-xl">Jena Karlis</h4><p class="text-white">Store owner</p></div></div><div class="mt-10"><p class="text-white text-justify ">For if you export the labor of those who are gods, the work of those who are important, the things that none of them will come to, and the labor of those who have the least time, the labors that I have endured, and the love of those who will be the least.</p></div></div></div></div><div class="container mx-auto px-5 md:px-0 mt-10 mb-10"><div><div class="flex items-center"><h1 class="text-neutral-700 ">Team</h1><div class="w-28 h-0.5 bg-amber-300 mr-2 rounded ml-3"></div></div><p class="text-neutral-900 text-3xl font-bold">Check out our team</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"><div class="group relative bg-white flex flex-col shadow-md overflow-hidden mt-10 z-10"><div class="relative"><img alt="" src="./Vite + React_files/team-1.jpg"><div class="absolute z-20 flex justify-center w-full bottom-3 gap-2 left-0 
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                          transition-opacity duration-300"><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Twitter"><path d="M19.913,5.322a1.034,1.034,0,0,1,.837,1.629L19.708,8.432c-.064,5.086-1.765,8.539-5.056,10.264A10.917,10.917,0,0,1,9.6,19.835a12.233,12.233,0,0,1-6.2-1.524.76.76,0,0,1-.317-.8.768.768,0,0,1,.63-.6,20.6,20.6,0,0,0,3.745-.886C2,13.5,3.19,7.824,3.71,6.081a1.028,1.028,0,0,1,1.729-.422,9.931,9.931,0,0,0,5.995,2.95A4.188,4.188,0,0,1,12.725,5.3a4.125,4.125,0,0,1,5.7.02ZM4.521,17.794c1.862.872,6.226,1.819,9.667.016,2.955-1.549,4.476-4.732,4.521-9.461a.771.771,0,0,1,.142-.436l1.081-1.538-.041-.053c-.518-.007-1.029-.014-1.55,0a.835.835,0,0,1-.547-.221,3.13,3.13,0,0,0-4.383-.072,3.174,3.174,0,0,0-.935,2.87.646.646,0,0,1-.154.545.591.591,0,0,1-.516.205A10.924,10.924,0,0,1,4.722,6.354c-.67,2.078-1.52,7.094,3.869,9.065a.632.632,0,0,1,.416.538.625.625,0,0,1-.3.6A13.178,13.178,0,0,1,4.521,17.794ZM11.875,8.65h0Zm7.793-.161,0,0Z"></path></g></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></div></div></div><div class="flex flex-col text-center py-3"><h4 class="text-neutral-900 font-bold">Walter White</h4><p class="text-neutral-700">Chief Executive Officer</p></div></div><div class="group relative bg-white flex flex-col shadow-md overflow-hidden mt-10 z-10"><div class="relative"><img alt="" src="./Vite + React_files/team-2.jpg"><div class="absolute z-20 flex justify-center w-full bottom-3 gap-2 left-0 
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                          transition-opacity duration-300"><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Twitter"><path d="M19.913,5.322a1.034,1.034,0,0,1,.837,1.629L19.708,8.432c-.064,5.086-1.765,8.539-5.056,10.264A10.917,10.917,0,0,1,9.6,19.835a12.233,12.233,0,0,1-6.2-1.524.76.76,0,0,1-.317-.8.768.768,0,0,1,.63-.6,20.6,20.6,0,0,0,3.745-.886C2,13.5,3.19,7.824,3.71,6.081a1.028,1.028,0,0,1,1.729-.422,9.931,9.931,0,0,0,5.995,2.95A4.188,4.188,0,0,1,12.725,5.3a4.125,4.125,0,0,1,5.7.02ZM4.521,17.794c1.862.872,6.226,1.819,9.667.016,2.955-1.549,4.476-4.732,4.521-9.461a.771.771,0,0,1,.142-.436l1.081-1.538-.041-.053c-.518-.007-1.029-.014-1.55,0a.835.835,0,0,1-.547-.221,3.13,3.13,0,0,0-4.383-.072,3.174,3.174,0,0,0-.935,2.87.646.646,0,0,1-.154.545.591.591,0,0,1-.516.205A10.924,10.924,0,0,1,4.722,6.354c-.67,2.078-1.52,7.094,3.869,9.065a.632.632,0,0,1,.416.538.625.625,0,0,1-.3.6A13.178,13.178,0,0,1,4.521,17.794ZM11.875,8.65h0Zm7.793-.161,0,0Z"></path></g></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></div></div></div><div class="flex flex-col text-center py-3"><h4 class="text-neutral-900 font-bold">Sarah Johnson</h4><p class="text-neutral-700">Production Manager</p></div></div><div class="group relative bg-white flex flex-col shadow-md overflow-hidden mt-10 z-10"><div class="relative"><img alt="" src="./Vite + React_files/team-3.jpg"><div class="absolute z-20 flex justify-center w-full bottom-3 gap-2 left-0 
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                          transition-opacity duration-300"><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Twitter"><path d="M19.913,5.322a1.034,1.034,0,0,1,.837,1.629L19.708,8.432c-.064,5.086-1.765,8.539-5.056,10.264A10.917,10.917,0,0,1,9.6,19.835a12.233,12.233,0,0,1-6.2-1.524.76.76,0,0,1-.317-.8.768.768,0,0,1,.63-.6,20.6,20.6,0,0,0,3.745-.886C2,13.5,3.19,7.824,3.71,6.081a1.028,1.028,0,0,1,1.729-.422,9.931,9.931,0,0,0,5.995,2.95A4.188,4.188,0,0,1,12.725,5.3a4.125,4.125,0,0,1,5.7.02ZM4.521,17.794c1.862.872,6.226,1.819,9.667.016,2.955-1.549,4.476-4.732,4.521-9.461a.771.771,0,0,1,.142-.436l1.081-1.538-.041-.053c-.518-.007-1.029-.014-1.55,0a.835.835,0,0,1-.547-.221,3.13,3.13,0,0,0-4.383-.072,3.174,3.174,0,0,0-.935,2.87.646.646,0,0,1-.154.545.591.591,0,0,1-.516.205A10.924,10.924,0,0,1,4.722,6.354c-.67,2.078-1.52,7.094,3.869,9.065a.632.632,0,0,1,.416.538.625.625,0,0,1-.3.6A13.178,13.178,0,0,1,4.521,17.794ZM11.875,8.65h0Zm7.793-.161,0,0Z"></path></g></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></div></div></div><div class="flex flex-col text-center py-3"><h4 class="text-neutral-900 font-bold">William Anderson</h4><p class="text-neutral-700">CTO</p></div></div><div class="group relative bg-white flex flex-col shadow-md overflow-hidden mt-10 z-10"><div class="relative"><img alt="" src="./Vite + React_files/team-4.jpg"><div class="absolute z-20 flex justify-center w-full bottom-3 gap-2 left-0 
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                          transition-opacity duration-300"><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Twitter"><path d="M19.913,5.322a1.034,1.034,0,0,1,.837,1.629L19.708,8.432c-.064,5.086-1.765,8.539-5.056,10.264A10.917,10.917,0,0,1,9.6,19.835a12.233,12.233,0,0,1-6.2-1.524.76.76,0,0,1-.317-.8.768.768,0,0,1,.63-.6,20.6,20.6,0,0,0,3.745-.886C2,13.5,3.19,7.824,3.71,6.081a1.028,1.028,0,0,1,1.729-.422,9.931,9.931,0,0,0,5.995,2.95A4.188,4.188,0,0,1,12.725,5.3a4.125,4.125,0,0,1,5.7.02ZM4.521,17.794c1.862.872,6.226,1.819,9.667.016,2.955-1.549,4.476-4.732,4.521-9.461a.771.771,0,0,1,.142-.436l1.081-1.538-.041-.053c-.518-.007-1.029-.014-1.55,0a.835.835,0,0,1-.547-.221,3.13,3.13,0,0,0-4.383-.072,3.174,3.174,0,0,0-.935,2.87.646.646,0,0,1-.154.545.591.591,0,0,1-.516.205A10.924,10.924,0,0,1,4.722,6.354c-.67,2.078-1.52,7.094,3.869,9.065a.632.632,0,0,1,.416.538.625.625,0,0,1-.3.6A13.178,13.178,0,0,1,4.521,17.794ZM11.875,8.65h0Zm7.793-.161,0,0Z"></path></g></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></div><div class="w-8 h-8 flex justify-center items-center rounded-md 
+                            bg-[rgba(196,196,196,0.57)] hover:bg-amber-300 
+                            cursor-pointer transition-all duration-300"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></div></div></div><div class="flex flex-col text-center py-3"><h4 class="text-neutral-900 font-bold">Amanda Jepsen</h4><p class="text-neutral-700">Accountant</p></div></div></div></div><div class=""><header class="bg-[rgb(21,21,21)]">d</header><footer class="bg-black"><div class="container mx-auto px-6 md:px-0 flex justify-center items-center"><div class="flex flex-col text-white items-center"><h1>Developed with <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M352 56h-1c-39.7 0-74.8 21-95 52-20.2-31-55.3-52-95-52h-1c-61.9.6-112 50.9-112 113 0 37 16.2 89.5 47.8 132.7C156 384 256 456 256 456s100-72 160.2-154.3C447.8 258.5 464 206 464 169c0-62.1-50.1-112.4-112-113z"></path></svg> </h1></div></div></footer></div></div></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+<div id="gtx-trans" style="position: absolute; left: 746px; top: 6092.8px;"><div class="gtx-trans-icon"></div></div></body></html>
